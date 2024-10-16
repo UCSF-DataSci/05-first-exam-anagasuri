@@ -143,7 +143,7 @@ Create a Python script that finds pairs of restriction enzyme cut sites that are
 3. Find all occurrences of the cut site (specified below) in the DNA sequence.
 4. Find all pairs of cut site locations that are 80,000-120,000 base pairs (80-120 kbp) apart.
 5. Print the total number of cut site pairs found and the positions of the first 5 pairs.
-6. Save a summary of the results (example below) in the results directory as "distant_cutsite_summary.txt".
+6. Save a summary of the results (example below) in the results directory as "cutsite_summary.txt".
 
 **NOTE:** This problem originally required searching for reverses, complements, and reverse complements. For simplicity, only use the cut site sequence as written (no reverse, no complement, definitely no reverse complement).
 
@@ -162,7 +162,7 @@ Run the script on the random sequence you generated in Question 2 and with cut s
 python find_distant_cutsites.py data/random_sequence.fasta "G|GATCC"
 `````
 
-Expected output (results/distant_cutsite_summary.txt):
+Expected output (results/cutsite_summary.txt):
 `````
 Analyzing cut site: G|GATCC
 Total cut sites found: 976
