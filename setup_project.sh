@@ -5,10 +5,10 @@ mkdir -p bioinformatics_project/{data,scripts,results}
 touch bioinformatics_project/scripts/{generate_fasta.py,dna_operations.py,find_cutsites.py}
 
 # cutsite_summary.txt empty file within results subdirectory
-touch bioinformatics_project/results/{cutsite_summary.txt} 
+touch bioinformatics_project/results/cutsite_summary.txt
 
 # random_sequency.fasta empty file within data subdirectory
-touch bioinformatics_project/data/{random_sequence.fasta}
+touch bioinformatics_project/data/random_sequence.fasta
 
 # README.md file in main project directory with description 
 echo "# Bioinformatics Project" > bioinformatics_project/README.md
