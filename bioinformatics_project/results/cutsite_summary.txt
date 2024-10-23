@@ -1,0 +1,9 @@
+Analzying cutsite: G|GATCC
+Total cut sites in sequence: 242
+Total number of cut site pairs: 2089
+Positions of first 5 pairs:
+1. 17353-105448
+2. 17353-109795
+3. 17353-113832
+4. 17353-114204
+5. 17353-119487
